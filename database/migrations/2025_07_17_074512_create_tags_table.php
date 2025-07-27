@@ -36,4 +36,5 @@ return new class extends Migration
         Schema::dropIfExists('tags');
         Schema::dropIfExists('job_tag');
     }
+
 };
